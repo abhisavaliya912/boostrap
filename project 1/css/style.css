@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color:rgb(233, 239, 248);
+    height: 100px;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+/* ***** slider******* */
+#s1-main{
+    background-image: url(../images/hero-bg.jpg);
+    /* background-color: rgba(255, 255, 255, 0.832); */
+    background-color: #fbfafa;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* position:relative; */
+    background-attachment: fixed;
+}
+.i1{
+    fill:  #106eea;
+}
+/* ***********************************************sec-1******************************************************************* */
+.sec-1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.icon-box{
+    height:250px;
+    width: 350px;
+    background-color:white;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+}
+.i2{
+    fill: #106eea;
+    padding: 24px;
+    height: 50px;
+    width: 50px;
+}
+/* **************************************************sec-2******************************************************************* */
+.about-bg{
+    margin-top: 80px;
+    background-color: #f6f9fe;
+   
+}
+.s-2-img{
+   margin-bottom: 80px;
+
+}
+.section-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin-top: 50px;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.section-title h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.section-title p{
+    font-weight: 600;
+    margin: 15px auto 0 auto;
+    /* text-align: center; */
+}
+.s2{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    font-size: 20px;
+    padding: 18px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+/* **************************************************sec-3******************************************************************* */
+.sec-3{
+    margin-top: 80px;
+}
+.progress-bars{
+    height: 60px;
+    margin-top: 10px;
+}
+/* ****************************************************sec-4********************************************************************** */
+.sec-4{
+    margin-top: 100px;
+
+}
+.xyz{
+    /* height: 38vh; */
+    display: grid;
+    place-items: center;
+    /* background: #fafafa; */
+}
+.counter div {
+    width: 306px;
+    height: 150px;
+    padding: 50px 0;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(217, 233, 245);
+    /* color: #fff; */
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.s4{
+    position: absolute;
+    top: -21px;
+    left: 42%;
+    right: 0;
+    font-size: 30px;
+    background: #106eea;
+    color: #fff;
+    border-radius: 50px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 10px;
+}
+.s-4-3{
+    font-size: 25px;
+    padding: 10px;
+}
+/* *********************************************************sec-5******************************************************************** */
+.sec-5{
+    margin-top: 80px;
+}
+.ser{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: #106eea;
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 100px;
+}  
+.icon-box-5{
+    height: 338px;
+    width: 416px;
+    border: 1px solid rgb(195, 195, 251);
+}  
+.s5{
+    font-size: 45px;
+    border: 1px solid rgb(195, 195, 251);
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: #e7f1fd;
+}
+/* **********************************************************sec-6*************************************************************** */
+.s6-bg{
+    background-image: url(../images/testimonials-bg.jpg);
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.632);
+    margin-top: 80px;
+}
+.abc {
+    margin: 0;
+    width: 100%;
+    min-height: 80vh;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  slider  */
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin-top: -120px;
+    /* box-shadow: 0 6px 103px 0 rgba(216, 214, 214, 0.71); */
+    transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), -webkit-transform .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+/* #slider:hover {
+    transform: scaleX(1.03) scaleY(1.03);
+} */
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    /* background: #ccc; */
+    text-align: center;
+    line-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.control_prev,
+.control_next {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    width: 10%;
+    height: 90%;
+    background: transparent;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3em;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.control_prev:hover,
+.control_next:hover {
+    opacity: .8;
+}
+
+.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slide1 img {
+    width: 50%;
+}
+
+.slide2 img {
+    width: 50%;
+}
+
+.slide3 img {
+    width: 50%;
+}
+
+.slide4 img {
+    width: 50%;
+}
+
+.slider-title-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color:#ededf382; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3.2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+}
+
+.slider-title {
+    font-size: 30px;
+    font-family: var(--rb);
+    text-transform: capitalize;
+}
+
+.slider-title-h3 {
+    margin: 0;
+    color: #f5f5f5;
+    display: block;
+    font-size: 20px;
+    /* font-weight: 900; */
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: var(--rb);
+}
+
+.slider-subtitle {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    /* height: 150px; */
+    width: 100%;
+    /* background-color: #06bbcc; */
+    line-height: 1cm;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 60px;
+    font-family: var(--rb);
+}
+
+.s-5-boxm {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #e7f1fd;
+}
+
+.s-5-boxm img {
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    margin-top: 9px;
+}
+/* *************************************************sec-7*************************************************************************** */
+.sec-7{
+    margin-top: 80px;
+}
+
+.btn-wrap {
+    margin: 6px -16px -16px;
+    background: rgb(248, 248, 248);
+    /* background-color: red; */
+    text-align: center;
+    height: 73px;
+    width: 303px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+/* *******************************************************sec-8***************************************************** */
+.sec-8{
+    margin-top: 80px;
+    
+}
+/* *******************************************************foooter******************************************************************** */
+.fo-bg{
+    background-color: #f6f9fe;
+    margin-top: 80px;
+    height: 400px;
+}
+.fo-box{
+    height: 40px;
+    width: 40px;
+    background-color: #106eea;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-top: -10px;
+    text-align: center;
+    
+}
+.back{
+    height:70px;
+    width: 70px;
+    background-color:#106eea ;
+    position: fixed;
+    right: 0;
+    color: #f5f5f5;
+    border: none;
+    font-size: 28px;
+    bottom: 0;
+}

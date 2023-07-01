@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENERGYM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand fs-1 fw-bold" href="#" style="font-weight: 900;">BizLand<span
+          class="text-primary">.</span></a>
+      <a class="btn btn-primary d-xl-none d-xxl-none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        <span class="navbar-toggler-icon"></span>
+      </a>
+
+      <ul class="navbar-nav d-none d-sm-none d-md-none d-lg-none d-xl-flex d-xxl-flex">
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fs-5 " href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Contact</a>
+        </li>
+      </ul>
+  </nav>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <a class="navbar-brand fs-1 fw-bold" href="#" style="font-weight: 900;">BizLand<span
+        class="text-primary">.</span></a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fs-5 " href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  fs-5" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- -------------------------------slider---------------------------------------------------- -->
+  <section id="s1-main" class="d-flex align-items-center">
+    <div class="container">
+      <h1 class="fs-1 fw-bold" style="font-weight: 1000;">Welcome to <span class="text-primary">BizLand </span></h1>
+      <p class="fs-5" style="color:#555555">We are team of talented designers making websites with Bootstrap</p>
+      <button class="bg-primary text-light fw-bold"
+        style="height: 40px; width: 150px; border: none; border-radius: 5px;">GET STARTED</button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-play-circle i1 "
+        viewBox="0 0 16 16" style="margin-left: 50px;">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        <path
+          d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+      </svg>
+      <span style="margin-left:10px; font-size: 20px; font-weight: 400;">watch video</span>
+    </div>
+  </section>
+  <!-- ---------------------------------------sec-1---------------------------------------------------------- -->
+  <section class="sec-1">
+    <div class="container">
+      <div class="row d-flex justify-content-evenly">
+        <div class="col-md-6 col-lg-3 d-flex align-items-center mb-5 mb-lg-0">
+          <div class="icon-box">
+            <i class="fa-sharp fa-solid fa-basketball text-primary p-4 s1" style="font-size: 40px ;"></i>
+            <h4 class="fs-5 fw-bold px-4"> Lorem ipsum</h4>
+            <p class="p-4">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex align-items-center  mb-5 mb-lg-0">
+          <div class="icon-box">
+            <i class="fa-sharp fa-solid fa-file text-primary p-4 s1" style="font-size: 40px ;"></i>
+            <h4 class="fs-5 fw-bold px-4">Sed at perspiciatis</h4>
+            <p class="p-4">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex align-items-center  mb-5 mb-lg-0">
+          <div class="icon-box">
+            <i class="fa-sharp fa-solid fa-gauge-high text-primary p-4 s1" style="font-size: 40px ;"></i>
+            <h4 class="fs-5 fw-bold px-4">Margin Dolores</h4>
+            <p class="p-4">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex align-items-center  mb-5 mb-lg-0">
+          <div class="icon-box">
+            <i class="fa-sharp fa-solid fa-earth-americas text-primary s1 p-4" style="font-size: 40px ;"></i>
+            <h4 class="fs-5 fw-bold px-4">Nemo Enim</h4>
+            <p class="p-4">
+
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------------------------sec-2----------------------------------------------------------------- -->
+  <section class="about-bg">
+    <div class="container">
+      <div class="section-title" style="text-align: center; padding-bottom: 30px; ">
+        <h2>ABOUT</h2>
+        <h3 class="">Find Out More <span class="text-primary"> About Us</span></h3>
+        <p style="width:50%">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+          voluptas atque vitae
+          autem.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="./images/about.jpg" class="img-fluid s-2-img" alt="">
+        </div>
+        <div class="col-lg-6  pt-lg-0">
+          <h3 class="pt-5 fw-bold" style="font-family: 'Roboto,sans-serif';">Voluptatem dignissimos provident quasi
+            corporis voluptates sit assumenda.</h3>
+          <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+          <div>
+            <div class="mt-5">
+              <div class="d-flex align-items-center">
+                <i class="fa-sharp fa-solid fa-shop text-primary s2"></i>
+                <div>
+                  <h5 class="fw-bolder" style="font-family: 'Roboto,sans-serif';">
+                    Ullamco laboris nisi ut aliquip consequat</h5>
+                  <p style="font-family: 'Open sans,sans-serif', ;font-size:15px;">Magni facilis facilis repellendus cum
+                    excepturi quaerat praesentium trade</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-4">
+              <div class="d-flex align-items-center">
+                <i class="fa-sharp fa-solid fa-images text-primary s2"></i>
+                <div>
+                  <h5 class="fw-bolder" style="font-family: 'Roboto,sans-serif';">
+                    Magnam soluta odio exercitationem reprehenderi</h5>
+                  <p style="font-family: 'Open sans',sans-serif ;font-size:15px;">Quo totam dolorum at pariatur aut
+                    distinctio dolorum laudantium illo direna pasata redi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-4" style="font-family: 'Open sans',sans-serif ;font-size:16px;;">Ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------------------------------------sec-3--------------------------------------------------------------------- -->
+  <section class="sec-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="mt-4">
+            <span>HTML</span>
+            <span style="float: right;">100%</span>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <span>CSS</span>
+            <span style="float: right;">50%</span>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary " style="width: 90%">50%</div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <span>JAVASCRIPT</span>
+            <span style="float: right;">75%</span>
+            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 75%">75%</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <div class="mt-4">
+            <span>PHP</span>
+            <span style="float: right;">80%</span>
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 100%">100%</div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <span>WORDPRESS/CMS</span>
+            <span style="float: right;">90%</span>
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary " style="width: 90%">50%</div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <span>PHOTOSHOP</span>
+            <span style="float: right;">55%</span>
+            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <div class="progress-bar bg-primary" style="width: 75%">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- ---------------------------------------------sec-4------------------------------------------------------------------------ -->
+  <section class="sec-4">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-lg-3 col-md-6">
+          <div class="xyz ">
+            <div class="counter  ">
+              <div>
+                <i class="fa-sharp fa-solid fa-face-smile s4"></i>
+                <h1 id="num1">232</h1>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="xyz ">
+            <div class="counter">
+              <div>
+                <i class="fa-sharp fa-solid fa-book-journal-whills s4 s-4-1"></i>
+                <h1 id="num2">521</h1>
+                <p>Projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="xyz ">
+            <div class="counter d-flex ">
+              <div>
+                <i class="fa-sharp fa-solid fa-headset s4 s-4-2"></i>
+                <h1 id="num3">1463</h1>
+                <p>Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="xyz ">
+            <div class="counter d-flex ">
+              <div>
+                <i class="fa-sharp fa-solid fa-user-group s4 s-4-3"></i>
+                <h1 id="num4">15</h1>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------------sec-5-------------------------------------------------------------------- -->
+  <section class="sec-5">
+    <div class="container">
+      <div class="section-title" style="text-align: center; padding-bottom: 30px; ">
+        <h2>Services</h2>
+        <h3 class="">Check our<span class="text-primary"> Services</span></h3>
+        <p style="width:50%">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+          voluptas atque vitae
+          autem.</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-basketball text-primary s5 mt-5 mb-3"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Lorem Ipsum</h4>
+            <p class="mx-5 pt-3" style="width: 80%; text-align: center;">Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6  d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-file text-primary px-3 s5 mt-5 mb-3"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Sed ut perspiciatis</h4>
+            <p class="mx-5 pt-3" style="width: 80%; text-align: center;">Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-gauge-high text-primary s5 mt-5 mb-3"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Margin Dolores</h4>
+            <p class="mx-5 pt-3" style="width: 80%; text-align: center;">Voluptatum deleniti atque corrupti quos dolores
+              et quas molestias excepturi</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-globe text-primary s5 mt-5 mb-3"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Nemo Enim</h4>
+            <p class="mx-5 pt-3" style="width: 80%; text-align: center;">At vero eos et accusamus et iusto odio
+              dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-desktop text-primary s5 mt-5 mb-3" style="padding: 11px;"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Dele cardo</h4>
+            <p class="mx-5 pt-3" style="width: 90%; text-align: center;">Quis consequatur saepe eligendi voluptatem
+              consequatur dolor consequuntur</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="icon-box-5 d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-archway s5 mt-5 mb-3 text-primary"></i>
+            <h4 class="mx-5 pt-3" style="text-align: center;">Divera don</h4>
+            <p class="mx-5 pt-3" style="width: 100%; text-align: center;">Modi nostrum vel laborum. Porro fugit error
+              sit
+              minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------------sec-6------------------------------------------------------------------ -->
+  <section class="s6-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="abc">
+            <div id="slider">
+              <p class="control_next"><i class="fas fa-angle-right"></i></p>
+              <p class="control_prev"><i class="fas fa-angle-left"></i></p>
+              <ul>
+                <li class="slide1">
+                  <div class="slider-title-wrapper">
+                    <div class="s-5-boxm">
+                      <img src="./images/testimonials-1.jpg" alt="">
+                    </div>
+                    <h3 class="slider-title">clint name<span class="slider-title-h3">profession</span>
+                      <div class="slider-subtitle">Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                        sit
+                        diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.</div>
+                    </h3>
+                  </div>
+
+                </li>
+                <li class="slide2">
+                  <div class="slider-title-wrapper">
+                    <div class="s-5-boxm">
+                      <img src="./images/testimonials-2.jpg" alt="">
+                    </div>
+                    <h3 class="slider-title">clint name<span class="slider-title-h3">profession</span>
+                      <div class="slider-subtitle">Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                        sit
+                        diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.</div>
+                    </h3>
+                  </div>
+
+                </li>
+                <li class="slide3">
+                  <div class="slider-title-wrapper">
+                    <div class="s-5-boxm">
+                      <img src="./images/testimonials-3.jpg" alt="">
+                    </div>
+                    <h3 class="slider-title">clint name<span class="slider-title-h3">profession</span>
+                      <div class="slider-subtitle">Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                        sit
+                        diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.</div>
+                    </h3>
+                  </div>
+
+                </li>
+                <li class="slide4">
+                  <div class="slider-title-wrapper">
+                    <div class="s-5-boxm">
+                      <img src="./images/testimonials-4.jpg" alt="">
+                    </div>
+                    <h3 class="slider-title">clint name<span class="slider-title-h3">profession</span>
+                      <div class="slider-subtitle">Tempor erat elitr rebum at clita. Diam dolor diam ipsum
+                        sit
+                        diam
+                        amet diam et eos. Clita erat ipsum et lorem et sit.</div>
+                    </h3>
+                  </div>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------------------------sec-7---------------------------------------------------------------- -->
+  <section class="sec-7">
+    <div class="container">
+      <div class="section-title" style="text-align: center; padding-bottom: 30px; ">
+        <h2>Pricing</h2>
+        <h3 class="">Check our<span class="text-primary"> Pricing</span></h3>
+        <p style="width:50%">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+          voluptas atque vitae
+          autem.</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+
+            <h4 class="pt-3" style="text-align: center; height: 50px; color: #555555; background-color: aliceblue;">Free
+            </h4>
+            <div style="width: 100%;">
+              <div class="card-body" style="text-align: center; line-height: 15px;width: 100%; ">
+                <h5 class="card-title text-primary mb-5"> <span class="fs-1">$</span> <span class="text-primary fs-1"> 0
+                  </span><span class="text-secondary">/month</span></h5>
+                <p class="card-text">Aida dere</p>
+                <p class="card-text">Nec feugiat nisl</p>
+                <p class="card-text">Nulla at volutpat dola</p>
+                <p class="card-text" style="text-decoration: line-through; color: #848282;">Pharetra massa</p>
+                <p class="card-text" style="text-decoration: line-through; color: #848282;">Massa ultricies mi</p>
+                <div class="btn-wrap">
+                  <a href="#" class="btn btn-primary mt-4" style="width: 120px;">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="card">
+
+            <h4 class="pt-3 bg-primary text-light"
+              style="text-align: center; height: 50px; border-radius: 5px 5px 0 0 ; ">Business</h4>
+            <div style="width: 100%;">
+              <div class="card-body" style="text-align: center; line-height: 15px;width: 100%; ">
+                <h5 class="card-title text-primary mb-5"> <span class="fs-1">$</span> <span class="text-primary fs-1">19
+                  </span><span class="text-secondary">/month</span></h5>
+                <p class="card-text">Aida dere</p>
+                <p class="card-text">Nec feugiat nisl</p>
+                <p class="card-text">Nulla at volutpat dola</p>
+                <p class="card-text">Pharetra massa</p>
+                <p class="card-text" style="text-decoration: line-through; color: #848282;">Massa ultricies mi</p>
+                <div class="btn-wrap">
+                  <a href="#" class="btn btn-primary mt-4" style="width: 120px;">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="card">
+
+            <h4 class="pt-3" style="text-align: center; height: 50px; color: #555555; background-color: aliceblue;">
+              Developer</h4>
+            <div style="width: 100%;">
+              <div class="card-body" style="text-align: center; line-height: 15px;width: 100%; ">
+                <h5 class="card-title text-primary mb-5"> <span class="fs-1">$</span> <span class="text-primary fs-1">
+                    29
+                  </span><span class="text-secondary">/month</span></h5>
+                <p class="card-text">Aida dere</p>
+                <p class="card-text">Nec feugiat nisl</p>
+                <p class="card-text">Nulla at volutpat dola</p>
+                <p class="card-text">Pharetra massa</p>
+                <p class="card-text">Massa ultricies mi</p>
+                <div class="btn-wrap">
+                  <a href="#" class="btn btn-primary mt-4" style="width: 120px;">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <div class="card">
+
+            <h4 class="pt-3" style="text-align: center; height: 50px; color: #555555; background-color: aliceblue;">
+              Ultimate</h4>
+            <div style="width: 100%;">
+              <div class="card-body" style="text-align: center; line-height: 15px;width: 100%; ">
+                <h5 class="card-title text-primary mb-5"> <span class="fs-1">$</span> <span class="text-primary fs-1">
+                    49
+                  </span><span class="text-secondary">/month</span></h5>
+                <p class="card-text">Aida dere</p>
+                <p class="card-text">Nec feugiat nisl</p>
+                <p class="card-text">Nulla at volutpat dola</p>
+                <p class="card-text">Pharetra massa</p>
+                <p class="card-text">Massa ultricies mi</p>
+                <div class="btn-wrap">
+                  <a href="#" class="btn btn-primary mt-4" style="width: 120px;">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------------sec-8----------------------------------------------------------------- -->
+  <section class="sec-8">
+    <div class="container">
+      <div class="section-title" style="text-align: center; padding-bottom: 30px; ">
+        <h2>F.A.Q.</h2>
+        <h3 class="">Frequently Asked<span class="text-primary"> Questions</span></h3>
+        <p style="width:50%">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at
+          voluptas atque vitae
+          autem.</p>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Non consectetur a erat nam at lectus urna duis?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>
+                ''Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.''
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
+                integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
+                Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc
+                vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
+                gravida quis blandit turpis cursus in</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+              Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+            </button>
+          </h2>
+          <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
+                nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis
+                tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas
+                fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- ---------------------------------------------------footer-------------------------------------------------------------------- -->
+  <footer class="fo-bg ">
+    <div class="container">
+      <div class="row d-flex align-items-start ">
+        <div class="col-lg-3 col-md-6">
+          <div class="mt-4">
+            <a class="navbar-brand fs-1 fw-bold " href="#" style="font-weight: 900; ">BizLand<span
+                class="text-primary">.</span></a>
+          </div>
+          <p class="mt-3">A108 Adam Street <br>
+            New York, NY 535022<br>
+            United States</p>
+          <p class="mt-4"><span class="fw-bold"> Phone:</span> +1 5589 55488 55
+            <br>
+            <span class="fw-bold"> Email: </span>info@example.com
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5">
+          <h4 class="fw-bold">Useful links</h4>
+          <p style="margin-top: 18px;"><i class="fa-sharp fa-solid fa-chevron-right pe-2 text-primary"></i>Home</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>About us</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Services</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Term of Services</p>
+          <p> <i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Privacy Policy</p>
+        </div>
+        <div class="col-lg-3  col-md-6 mt-5">
+          <h4 class="fw-bold">Our Services</h4>
+          <p style="margin-top: 18px;"> <i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Web Design
+          </p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Web Development</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Product Management</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Marketing</p>
+          <p><i class="fa-sharp fa-solid fa-chevron-right pe-2  text-primary"></i>Graphic Design</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-5 ">
+          <h4 class="fw-bold">Our Social Marketing</h4>
+          <p style="font-size: 14px;">Cras fermentum odio eu feugiat lide naso tierra videa magna derita valies</p>
+          <div class="d-flex justify-content-around align-items-center ">
+            <div class="fo-box" style="text-align: center;">
+              <i class="bi bi-facebook fo-ic"></i>
+            </div>
+            <div class="fo-box">
+              <i class="bi bi-twitter"></i>
+            </div>
+            <div class="fo-box">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="fo-box">
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <button class="back"><i class="fa-sharp fa-solid fa-arrow-up"></i></button>
+  <!-- -------------------------------------------------j-quray--------------------------------------------------------------------- -->
+
+  <!----------------------------------------slider---------------------------------------------------------------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script> -->
+  <script>
+    jQuery(document).ready(function ($) {
+
+      // This is for the auto sliding
+      setInterval(function () {
+        moveRight();
+      }, 3000);
+
+      //variables
+      var slideCount = $('#slider ul li').length;
+      var slideWidth = $('#slider ul li').width();
+      var slideHeight = $('#slider ul li').height();
+      var sliderUlWidth = slideCount * slideWidth;
+
+      $('#slider').css({ width: slideWidth, height: slideHeight });
+
+      $('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+      $('#slider ul li:last-child').prependTo('#slider ul');
+
+      function moveLeft() {
+        $('#slider ul').animate({
+          left: + slideWidth
+        }, 300, function () {
+          $('#slider ul li:last-child').prependTo('#slider ul');
+          $('#slider ul').css('left', '');
+        });
+      };
+
+      function moveRight() {
+        $('#slider ul').animate({
+          left: - slideWidth
+        }, 300, function () {
+          $('#slider ul li:first-child').appendTo('#slider ul');
+          $('#slider ul').css('left', '');
+        });
+      };
+
+      $('.control_prev').click(function () {
+        moveLeft();
+      });
+
+      $('.control_next').click(function () {
+        moveRight();
+      });
+
+    });
+  </script>
+  <!-- ---------------------------------------------------------------------------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="./counter/countMe.min.js"></script>
+  <script>
+    window.onload = () => {
+      // $(selector).countMe(delay,speed)
+      $("#num1").countMe(40, 65);
+      $("#num2").countMe(30, -10);
+      $("#num3").countMe(40, 50);
+      $("#num4").countMe(100, 200);
+      $("#num5").countMe(300, 100);
+    }
+  </script>
+  <script>
+    $('.back').hide();
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 1) {
+        $('.back').show();
+      }
+      else {
+        $('.back').hide();
+      }
+    });
+
+    $('.back').click(function () {
+      document.documentElement.scrollTop = 0;
+    });
+  </script>
+  
+</body>
+
+</html>

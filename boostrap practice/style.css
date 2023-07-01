@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    background-color: #0d2d3e;
+    height: 50px;
+    padding: 13px 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header-left ul li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header-right ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+}
+.header-right li a {
+    color: #fff;
+}
+/* *********************************************slider*******************************************************************/
+.bg-img{
+    background-image: url(/images/h1_hero.jpg.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-inner{
+    height: 800px;
+    background-color: red;
+}

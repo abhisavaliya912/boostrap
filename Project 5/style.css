@@ -1,0 +1,45 @@
+@font-face {
+    font-family: italic1;
+    src: url(../font/DancingScript-Regular.ttf);
+}
+.of{
+    font-family: italic1;
+    border-bottom: 1px solid olivedrab;
+}
+.br{
+    border: none;
+    padding: 15px;
+    font-size:30px;
+}
+body {
+    background-color: black;
+}
+
+/* .btn-1 {
+    margin-left: 100px;
+    margin-top: 20px;
+} */
+
+body.bb{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+body.bw{
+  background-color:paleturquoise;
+  color: rgb(0, 0, 0);
+}
+
+body.bg{
+  background-color:rgb(30, 175, 204);
+  color: rgb(0, 0, 0);
+}
+
+body.bl{
+  background-color:rgb(237, 127, 200);
+  color: rgb(0, 0, 0);
+}
+.cricle{
+    width: 50px;
+    height: 50px;
+}

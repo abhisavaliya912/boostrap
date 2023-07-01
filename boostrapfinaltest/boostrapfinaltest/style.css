@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display:flex ;
+    justify-content: space-between;
+}
+.bg-img{
+    background-image: url(/images/h1_hero.jpg.webp);
+    height: 700px;
+    width:100%;
+    background-size: cover;
+}
+.carousel-inner{
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+}
+.ca{
+    display: flex;
+    align-items: center;
+
+}
+.caption{
+    font-size: 30px;
+    font-weight: 500;
+    color: #eb566c;
+    margin-bottom:80px ;
+    /* text-align: center; */
+    /* margin-top: 20%; */
+    padding-left: 400px;
+}
+.caption-2{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Roboto',sans-serif;
+    /* padding-left: 80px; */
+    line-height: 1.2;
+    /* margin-bottom: 33px; */
+    color: red;
+}
+.caption-3{
+    /* padding-left: 80px; */
+    color: #eb566c;
+    margin-bottom:10% ;
+}
+.s2{
+    margin-top: 80px;
+}
+.fa-gear{
+   font-size: 60px;
+   text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 8px 5px 8px gray;
+}
+.card-text{
+    text-align: center;
+}
+.fa-file{
+    font-size:60px;
+    text-align: center;
+}
+.fa-handshake-angle{
+    font-size:60px;
+    text-align: center;
+}
+.s3{
+    margin-top: 80px;
+}
+.s-3-d{
+    height: 700px;
+}
+.s-3-d img{
+    height: 500px;
+    margin-top: 95px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 99;
+}
+.s-3-a {
+    position: relative;
+    height: 700px;
+}
+.s-3-text{
+    /* padding-left:228px; */
+   font-size: 20px;
+}
+.s-3text1{
+    /* padding-left: ; */
+    font-size: 60px;
+    font-weight: 900;
+}
+.s4{
+    margin-top: 80px;
+}
+.s4 h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.img1{
+    height: 405px;
+    width: 570px;
+    
+}
+.img2{
+    height: 405px;
+    width: 570px;
+    margin-left: -40px;
+}
+.img3{
+    height: 405px;
+    width: 570px;
+    margin-top: 30px;
+}
+.img4{
+    height: 405px;
+    width: 570px;
+    margin-top: 30px;
+    margin-left: -40px;
+}
